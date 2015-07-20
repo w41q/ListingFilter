@@ -40,7 +40,6 @@ if (($handle = fopen("listings.csv", 'r')) !== FALSE)
 				$entry = array("type"=>"Feature", "properties"=>$property, "geometry"=>$geometry);
 				$data[] = $entry;
 			}
-			
 		}
 	}
 	fclose($handle);
